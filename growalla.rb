@@ -1,26 +1,3 @@
-# growalla.rb
-# Growl notifications for Gowalla checkins.
-#
-# Specifically: sets up a local web app using Sinatra, tunnels it out through
-# ReverseHTTP using Hookout, subscribes to PubSubHubbub notifications for your
-# Gowalla friends feed, and shells out to growlnotify for each notifcation.
-#
-# USAGE:
-#  1. Install Growl and growlnotify (from the Extras folder): http://growl.info/
-#  2. Install prerequisite gems:
-#     $ gem sources -a http://gems.github.com
-#     $ sudo gem install sinatra thin paulj-hookout
-#  3. Start it (with your Gowalla username, not mine):
-#     $ ruby growalla.rb sco
-#
-#
-# TODO:
-# - include checkin comments
-# - download the spot image and/or user image
-# - auto-discover the hub
-# - say each of the summaries, not just the last
-# - check that growlnotify exists
-#
 require 'rubygems'
 require 'sinatra'
 require 'hookout'
