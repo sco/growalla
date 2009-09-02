@@ -17,6 +17,11 @@ INSTALLATION:
 USAGE:
   $ ruby growalla.rb sco    [with your Gowalla username, not mine]
 
+   Within a minute or so, you should get a Growl message saying notifications
+   are on. After that, new checkins from friends should appear within 30 seconds
+   of happening.
+
+
 TODO:
 - checkin comments
 - spot or user images
